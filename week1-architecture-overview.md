@@ -304,7 +304,7 @@ target/release/tikv-server --pd-endpoints http://192.168.1.11:3379  --status-add
 
 我创建了一个`person`的表,一个name字段和money字段.
 
-![](https://res.cloudinary.com/lyp/image/upload/v1597567480/tidb/table.jpg)
+![table](https://res.cloudinary.com/lyp/image/upload/v1597567480/tidb/table.jpg)
 
 插入一行数据查看事务的效果：
 
@@ -328,4 +328,4 @@ commit;
 其实这里打印的地方可能是不对的，这是在提交事务的时候才会打印，也就是执行`commit;`的时候，而作业内容是`开始事务时`也就是`begin;`时,不过我没有更多时间再看了，所以提交的作业就写在了`execute`时打印. :)
 
 欢迎感兴趣的同学一起交流，
-我的知乎地址是：[](https://www.zhihu.com/people/liangyuanpeng),后续会更新在发布的文章中。
+我的知乎地址是：[LanLiang](https://www.zhihu.com/people/liangyuanpeng),后续会更新在发布的文章中。
