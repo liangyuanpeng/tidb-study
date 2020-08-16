@@ -304,7 +304,7 @@ target/release/tikv-server --pd-endpoints http://192.168.1.11:3379  --status-add
 
 我创建了一个`person`的表,一个name字段和money字段.
 
-![table](https://res.cloudinary.com/lyp/image/upload/v1597567480/tidb/table.jpg)
+[table](https://res.cloudinary.com/lyp/image/upload/v1597567480/tidb/table.jpg)
 
 插入一行数据查看事务的效果：
 
