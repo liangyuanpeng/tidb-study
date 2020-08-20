@@ -192,7 +192,7 @@ build  deps  examples  incremental  libcmd.d  libcmd.rlib  tikv-ctl  tikv-ctl.d 
 
 可以看到有`tikv-ctl`和`tikv-server`,我们部署需要的是`tikv-server`.
 
-惯例，首先看一下help了解下都有什么参数可以设置。就不再掩饰了。 展示下我部署3个节点的tikv的启动参数：
+惯例，首先看一下help了解下都有什么参数可以设置。就不再演示了。 展示下我部署3个节点的tikv的启动参数：
 ```
 target/debug/tikv-server --pd-endpoints http://192.168.1.11:3379 -A 192.168.1.11:20161 -f tikv.log --data-dir data
 
