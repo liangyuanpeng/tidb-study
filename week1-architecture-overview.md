@@ -5,7 +5,7 @@
 下面是官方的一个架构图:
 ![architecture](https://github.com/pingcap/tidb/blob/master/docs/architecture.png)
 
-学习了这一节课程可以对TIDB的全局情况有一个大体的了解，B站传送门：[](https://www.bilibili.com/video/BV17K411T7Kd)
+学习了这一节课程可以对TIDB的全局情况有一个大体的了解，[B站传送门](https://www.bilibili.com/video/BV17K411T7Kd)
 
 TIDB的总体架构用一句话总结来说的话就是：PD调度、TIDB计算、TIKV存储。
 
